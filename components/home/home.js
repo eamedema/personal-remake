@@ -6,17 +6,17 @@ function HomeController($scope) {
   angular.module('Personal').component('home', {
     template: `
         <div class="homeContainer">
-            <a class="noStyle aboutHover selectHoverAbout" href="./">
+            <a class="noStyle aboutHover selectHoverAbout" href="#!/about">
                 <div class="">
                     ABOUT
                 </div>
             </a>
-            <a class="noStyle projectHover selectHoverProjects" href="./">
+            <a class="noStyle projectHover selectHoverProjects" href="#!/projects">
                 <div class="">
                     PROJECTS
                 </div>
             </a> 
-            <a class="noStyle contactHover selectHoverContact" href="./">
+            <a class="noStyle contactHover selectHoverContact" href="#!/contact">
                 <div class="">
                     CONTACT
                 </div>

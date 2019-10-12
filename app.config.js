@@ -8,8 +8,20 @@ angular
     $routeProvider
       // When the user visits the display route...
       .when("/", {
-        // Load the about component
+        // Load the home component
         template: "<home></home>"
+      })
+      .when("/about", {
+        // Load the about component
+        template: "<about></about>"
+      })
+      .when("/projects", {
+        // Load projects component
+        template: "<projects></projects>"
+      })
+      .when("/contact", {
+        // Load contact component
+        template: "<contact></contact>"
       })
       .otherwise( {
         //otherwise, take me home

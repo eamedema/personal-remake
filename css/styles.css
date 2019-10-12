@@ -127,7 +127,7 @@
 }
 
 .aboutPageContainer {
-  background-color: blue;
+  background-color: lightblue;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -142,7 +142,7 @@
 }
 
 .projectsPageContainer {
-  background-color: greenyellow;
+  background-color: lightgreen;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,7 +157,7 @@
 }
 
 .contactPageContainer {
-  background-color: pink;
+  background-color: lightpink;
   display: flex;
   align-items: center;
   justify-content: center;

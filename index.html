@@ -1,0 +1,35 @@
+<html lang="en" ng-app="Personal">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Eric Medema </title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body class="container">
+    <nav>
+        <home-nav></home-nav>
+    </nav>
+      
+    <main id="main" data-ng-view>
+        <!-- anything configured in the route is going to be injected here -->
+    </main>
+
+    <div>
+        <footer-nav></footer-nav>
+    </div>  
+
+  <script src="https://code.angularjs.org/1.7.8/angular.js"></script>
+  <script src="https://code.angularjs.org/1.7.8/angular-route.js"></script>
+  <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
+  <script src="components/home-nav/homeNav.js"></script>
+  <script src="components/footer/footer.js"></script>
+  <script src="components/home/home.js"></script>
+</body>
+
+
+</html>

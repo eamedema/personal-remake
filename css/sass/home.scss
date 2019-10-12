@@ -1,0 +1,23 @@
+@import 'colors';
+
+.headerBody {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerBody {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 7vh;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

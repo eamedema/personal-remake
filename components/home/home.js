@@ -7,17 +7,17 @@ function HomeController($scope) {
     template: `
         <div class="homeContainer">
             <a class="noStyle aboutHover selectHoverAbout" href="#!/about">
-                <div class="">
+                <div class="homeBox">
                     ABOUT
                 </div>
             </a>
             <a class="noStyle projectHover selectHoverProjects" href="#!/projects">
-                <div class="">
+                <div class="homeBox">
                     PROJECTS
                 </div>
             </a> 
             <a class="noStyle contactHover selectHoverContact" href="#!/contact">
-                <div class="">
+                <div class="homeBox">
                     CONTACT
                 </div>
             </a>     

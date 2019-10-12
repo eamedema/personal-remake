@@ -4,8 +4,11 @@ function ContactController($scope) {
   
   angular.module('Personal').component('contact', {
     template: `
-        <div class="contactPageContainer">
-              <p>test</p>
+        <div class="contactPage">
+            <navigation></navigation>
+            <div class="contactPageContainer">
+                <p>test</p>
+            </div>    
         </div>
       `, 
     controller: ContactController

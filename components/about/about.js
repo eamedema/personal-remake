@@ -4,8 +4,11 @@ function AboutController($scope) {
   
   angular.module('Personal').component('about', {
     template: `
-        <div class="aboutPageContainer">
-              <p>test</p>
+        <div class="aboutPage">
+            <navigation></navigation>
+            <div class="aboutPageContainer">
+                <p>test</p>
+            </div>
         </div>
       `, 
     controller: AboutController

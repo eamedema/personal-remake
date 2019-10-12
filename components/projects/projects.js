@@ -4,8 +4,11 @@ function ProjectsController($scope) {
   
   angular.module('Personal').component('projects', {
     template: `
-        <div class="projectsPageContainer">
-              <p>test</p>
+        <div class="projectsPage">
+            <navigation></navigation>
+            <div class="projectsPageContainer">
+                <p>test</p>
+            </div>
         </div>
       `, 
     controller: ProjectsController

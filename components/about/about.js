@@ -7,7 +7,7 @@ function AboutController($scope) {
         <div class="aboutPage">
             <navigation></navigation>
             <div class="aboutPageContainer">
-                <p>test</p>
+                <h1>ABOUT</h1>
             </div>
         </div>
       `, 

@@ -7,7 +7,7 @@ function ProjectsController($scope) {
         <div class="projectsPage">
             <navigation></navigation>
             <div class="projectsPageContainer">
-                <p>test</p>
+                <h1>PROJECTS</h1>
             </div>
         </div>
       `, 

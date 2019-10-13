@@ -4,11 +4,28 @@
 }
 
 .contactPageContainer {
-    background-color: lightpink;
+    border-top: 10px solid lightpink;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
     height: 100%;
+}
+
+.contactFlex {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactLanding {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    color: white;
 }

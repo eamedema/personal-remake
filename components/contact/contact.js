@@ -7,7 +7,12 @@ function ContactController($scope) {
         <div class="contactPage">
             <navigation></navigation>
             <div class="contactPageContainer">
-                <p>test</p>
+                <div class="contactFlex contactLanding">
+                    <h1>CONTACT</h1>
+                </div>
+                <div class="contactFlex"
+                    <p>test</p>
+                <div>    
             </div>    
         </div>
       `, 
